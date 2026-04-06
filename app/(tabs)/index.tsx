@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function HistoryScreen() {
+export default function TodayScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>History coming soon</Text>
+      <Text style={styles.text}>Today's workout coming soon</Text>
     </View>
   );
 }
