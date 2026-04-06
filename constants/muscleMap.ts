@@ -1,4 +1,4 @@
-import { MuscleGroup } from "./exercises";
+import type { MuscleGroup } from './exercises';
 
 // Maps exercise id → all muscles it works (primary + secondary)
 export const MUSCLE_MAP: Record<string, MuscleGroup[]> = {
